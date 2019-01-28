@@ -41,6 +41,15 @@ const siteContent = {
 const logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"]);
 
+const bigCircle=document.getElementById('cta-img');
+bigCircle.setAttribute('src', siteContent['cta']['img-src']);
+
+const banner=document.getElementById('middle-img');
+banner.setAttribute('src', siteContent['main-content']['middle-img-src']);
+
+// /Images
+
+
 const navItems=document.querySelectorAll('nav a');
 navItems[0].textContent=siteContent['nav']['nav-item-1'];
 navItems[1].textContent=siteContent['nav']['nav-item-2'];
@@ -91,3 +100,5 @@ contactP[2].textContent=siteContent['contact']['email'];
 
 const thatFooter=document.querySelector('footer p');
 thatFooter.textContent=siteContent['footer']['copyright'];
+
+
