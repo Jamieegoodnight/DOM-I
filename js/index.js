@@ -65,6 +65,22 @@ navItems[4].style.color="green";
 navItems[5].style.color="green";
 
 // 
+
+const theNav=document.querySelector('nav');
+
+const newNav=document.createElement('a');
+newNav.textContent="Secret Club";
+newNav.style.color="green"
+
+const newerNav=document.createElement('a');
+newerNav.textContent="Premium Secret Club";
+newerNav.style.color="green";
+
+theNav.append(newNav);
+theNav.append(newerNav);
+
+
+// 
 const theTitle=document.querySelector('.cta .cta-text h1');
 theTitle.textContent=siteContent['cta']['h1'];
 
