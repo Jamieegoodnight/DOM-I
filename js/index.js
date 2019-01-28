@@ -78,3 +78,16 @@ botP[1].textContent=siteContent['main-content']['product-content'];
 botP[2].textContent=siteContent['main-content']['vision-content'];
 
 //
+
+const contactHead=document.querySelector('.contact h4');
+contactHead.textContent=siteContent['contact']['contact-h4'];
+
+const contactP=document.querySelectorAll('.contact p');
+contactP[0].textContent=siteContent['contact']['address'];
+contactP[1].textContent=siteContent['contact']['phone'];
+contactP[2].textContent=siteContent['contact']['email'];
+
+// 
+
+const thatFooter=document.querySelector('footer p');
+thatFooter.textContent=siteContent['footer']['copyright'];
