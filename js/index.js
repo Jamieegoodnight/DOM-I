@@ -60,5 +60,21 @@ btnContent.textContent=siteContent['cta']['button'];
 
 
 const topHead = document.querySelectorAll('.main-content .top-content h4');
-topHead[0].textContent=siteContent['main-content']['features-h4']
-topHead[1].textContent=siteContent['main-content']['about-h4']
+topHead[0].textContent=siteContent['main-content']['features-h4'];
+topHead[1].textContent=siteContent['main-content']['about-h4'];
+
+const topP=document.querySelectorAll('.main-content .top-content p');
+topP[0].textContent=siteContent['main-content']['features-content'];
+topP[1].textContent=siteContent['main-content']['about-content'];
+
+const botHead=document.querySelectorAll('.main-content .bottom-content h4');
+botHead[0].textContent=siteContent['main-content']['services-h4'];
+botHead[1].textContent=siteContent['main-content']['product-h4'];
+botHead[2].textContent=siteContent['main-content']['vision-h4'];
+
+const botP=document.querySelectorAll('.main-content .bottom-content p');
+botP[0].textContent=siteContent['main-content']['services-content'];
+botP[1].textContent=siteContent['main-content']['product-content'];
+botP[2].textContent=siteContent['main-content']['vision-content'];
+
+//
